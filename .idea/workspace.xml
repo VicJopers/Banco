@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bb5464f-7903-48da-a0b1-e842c0f3d0a2" name="Changes" comment="Iniciando">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Banco.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VicJopers/Projeto/Java/Account.java" afterDir="false" />
+    <list default="true" id="3bb5464f-7903-48da-a0b1-e842c0f3d0a2" name="Changes" comment="parte principal">
+      <change afterPath="$PROJECT_DIR$/src/VicJopers/Projeto/Java/Log.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VicJopers/Projeto/Java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VicJopers/Projeto/Java/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VicJopers/Projeto/Java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VicJopers/Projeto/Java/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,13 +36,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,11 +59,19 @@
       <option name="project" value="LOCAL" />
       <updated>1675594156627</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="parte principal">
+      <created>1675703924132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675703924132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Iniciando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniciando" />
+    <MESSAGE value="parte principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="parte principal" />
   </component>
 </project>

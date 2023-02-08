@@ -4,13 +4,23 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
-        System.out.println("DIGITE O NÚMERO DA SUA AGENCIA\n");
+        Account accout = new Account("0001", "1234", "Vic Jopers");
+        boolean sucesso = accout.sacar(200.00);
 
-        Account user = new Account();
+        if(!sucesso){
+            System.out.println("Você não pode sacar");
+        }
+        accout.deposit(100);
+        accout.deposit(50);
+        accout.deposit(200);
 
-        Scanner scan = new Scanner(System.in);
-        int num = scan.nextInt();
-        System.out.println(num);
-
+        if(!accout.sacar(200)){
+            System.out.println("Você não pode sacar");
+        }
+        if(!accout.sacar(200)){
+            System.out.println("Você não pode sacar");
+        }
+        System.out.println("\n");
+        System.out.println(accout);
     }
 }
