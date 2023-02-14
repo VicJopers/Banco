@@ -26,11 +26,11 @@ public class Account{
     public void deposit(double value){
 
         balance += value;
-        logger.out("DEPÓSITO: "+value +" - Valor em conta agora é de: "+balance);
+        logger.out("DEPÓSITO: "+value +"\n - Valor em conta agora é de: "+balance);
     }
     public boolean sacar(double value){
         if(balance<value){
-            logger.out("NÃO PERMITIDO - Valor em conta agora é de: "+balance);
+            logger.out("NÃO PERMITIDO \n- Valor em conta é de: "+balance);
             return false;
         }
         logger.out("VALOR SOLICITADO: "+value +"PODE SACAR - Valor em conta agora é de: "+balance);
